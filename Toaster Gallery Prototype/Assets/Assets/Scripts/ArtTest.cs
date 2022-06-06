@@ -71,6 +71,15 @@ public class ArtTest : MonoBehaviour
     //Load the specific image to the next art placeholder
     private IEnumerator LoadImages()
     {
+        /*
+         * IMPORTANT
+         * 
+         * IMAGES CAN ONLY BE .JPG RIGHT NOW
+         * IMAGES MUST BE LABELED AS FOLLOWS: "ExampleImage01", "ExampleImage02", etc (ExampleImage can be whatever name you wish)
+         * WHEN PULLING IMAGES INTO THIS APPLICATION: 
+         *          THEY MUST BE ON THE C: DRIVE
+         * 
+         */
         textList = new Texture2D[files.Length];
 
         int dummy = 0;
